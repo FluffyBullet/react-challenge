@@ -1,12 +1,12 @@
 import css from './App.module.css';
 import NavBarSimple from './components/Navbar';
-import Display from './components/Sidebar'
-import StatefulGreeting from "./components/StatefulGreeting";
+import Display from './components/EventBinding'
+
 
 function App() {
   return (
     <div className="App">
-      <NavBarSimple name="David"/>
+      <EventBinding />
     </div>
   );
 }
